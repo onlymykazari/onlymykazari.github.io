@@ -1,0 +1,132 @@
+schema: hugoblox/author/v1
+slug: me-zh
+is_owner: true
+name:
+  display: 吴健雄
+  given: Jianxiong
+  family: Wu
+  pronunciation: Wu Jian Xiong
+  pronouns: she/her
+status:
+  icon: "☕️"
+role: 云基础设施总监
+bio: >
+  目前担任 GenCoin 云基础设施总监，负责边缘计算、海底数据中心架构与高可用平台治理。
+affiliations:
+  - name: GenCoin
+    url: https://www.example.com/
+links:
+  - icon: at-symbol
+    url: mailto:your-email@example.com
+    label: 给我发邮件
+  - icon: brands/x
+    url: https://x.com/LoreLabs_
+  - icon: brands/github
+    url: https://github.com/gcushen
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/
+  - icon: brands/instagram
+    url: https://www.instagram.com/
+education:
+  - degree: 人工智能博士
+    institution: Stanford University
+    start: 2016-01-01
+    end: 2020-12-31
+    summary: |
+      研究方向为 _Why LLMs are awesome_，由 [Prof Joe Smith](https://example.com) 指导。
+      曾在 5 场 IEEE 会议发表成果，并在 2 本 Springer 期刊收录。
+    button:
+      text: 阅读论文
+      url: https://example.com
+  - degree: 人工智能硕士
+    institution: Massachusetts Institute of Technology
+    start: 2016-01-01
+    end: 2020-12-31
+    summary: |
+      GPA: 3.8/4.0
+
+      课程包括：
+      - 机器学习系统
+      - 深度学习优化
+      - 分布式计算
+  - degree: 人工智能学士
+    institution: Massachusetts Institute of Technology
+    start: 2016-01-01
+    end: 2020-12-31
+    summary: |
+      GPA: 3.4/4.0
+
+      课程包括：
+      - 数据结构与算法
+      - 概率统计
+      - 计算机系统
+experience:
+  - role: 云基础设施总监
+    org: GenCoin
+    start: 2021-01-01
+    summary: |
+      主要职责：
+      - 规划并落地多区域云平台架构
+      - 建立高可用与容灾体系
+      - 推动基础设施自动化与成本治理
+  - role: 后端软件工程师
+    org: X
+    start: 2016-01-01
+    end: 2020-12-31
+    summary: |
+      主要职责：
+      - 完成基础设施迁移至新数据中心
+      - 建设核心服务链路监控
+      - 优化关键接口性能与稳定性
+skills:
+  - name: 技术技能
+    items:
+      - label: Python
+        level: 4
+      - label: RStudio
+        level: 5
+      - label: PyTorch
+        level: 2
+  - name: 兴趣爱好
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - label: 徒步
+        level: 3
+      - label: 猫
+        level: 5
+      - label: 摄影
+        level: 4
+languages:
+  - name: 中文
+    level: 5
+  - name: 英语
+    level: 4
+  - name: 葡萄牙语
+    level: 1
+awards:
+  - title: 神经网络与深度学习
+    url: https://www.coursera.org/learn/neural-networks-deep-learning
+    date: '2023-11-25'
+    awarder: Coursera
+    icon: brands/coursera
+    summary: |
+      系统学习神经网络与深度学习基础，包括模型构建、训练、向量化实现与实际应用。
+  - title: 区块链基础
+    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    date: '2023-07-01'
+    awarder: edX
+    icon: brands/edx
+    summary: |
+      学习内容：
+      - 区块链解决方案设计
+      - Bitcoin 机制与应用
+      - 以太坊、智能合约与共识机制分析
+  - title: R 语言面向对象编程
+    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+    certificate_url: https://www.datacamp.com
+    date: '2023-01-21'
+    awarder: datacamp
+    icon: brands/datacamp
+    summary: |
+      学习 S3 与 R6 两种 OOP 体系，提升复杂分析场景下的代码组织与复用能力。

@@ -5,18 +5,21 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: 简历网站
+  params:
+    description: 个人简历与博客
+  menu:
+    main:
+      - name: 简历
+        url: /
+        weight: 10
+      - name: 博客
+        url: blog/
+        weight: 20
+      - name: 其他
+        url: uses/
+        weight: 30

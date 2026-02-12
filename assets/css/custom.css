@@ -1,0 +1,5 @@
+/* Resume: improve spacing around the download button on biography block */
+#section-resume-biography .resume-biography > a.inline-flex {
+  margin-top: 1.4rem;
+  margin-bottom: -2.2rem;
+}
