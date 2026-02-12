@@ -3,3 +3,5 @@
   margin-top: 1.4rem;
   margin-bottom: -2.2rem;
 }
+
+/* cache-bust: force Pages to rebuild resources after layout fixes */
