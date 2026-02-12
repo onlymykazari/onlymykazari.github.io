@@ -119,6 +119,7 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        rm -rf resources/_gen/assets
         hugo --minify
 
     - name: Generate Pagefind search index (if applicable)
