@@ -103,12 +103,13 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugo-deps-
 
-    # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
+    # Cache Hugo resources (processed images, CSS)
+    # Include layouts/content/data because template changes can alter generated CSS.
     - uses: actions/cache@v4
       with:
         path: resources/
         key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
-          'hugo.yaml', 'package.json') }}
+          'layouts/**/*', 'content/**/*', 'data/**/*', 'hugo.yaml', 'package.json') }}
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 
